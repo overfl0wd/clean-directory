@@ -11,9 +11,7 @@ Edit the array $filetypes to modify the file extensions used in list and remove.
 
 ## Usage 
 #### ./cleanDirectory.sh \<target directory> \<action>
-Example 1: ./cleanDirectory.sh repository/ check
 
-Example 2: ./cleanDirectory.sh repository/ list
-
-Example 2: ./cleanDirectory.sh repository/ remove
-
+1. ./cleanDirectory.sh repository/ check
+2. ./cleanDirectory.sh repository/ list
+3. ./cleanDirectory.sh repository/ remove
