@@ -7,7 +7,9 @@ It has three functions, which are:
 - List all files with the extensions specified in source, essentially a dry-run.
 - Remove all files with the matched extensions
 
-Edit the array $filetypes to modify the file extensions to search for.
+To change what file extensions are searched for, edit the array $filetypes.
+
+![edit this to use](https://i.imgur.com/lvN6ZQA.png)
 
 ## Usage 
 #### ./cleanDirectory.sh \<target directory> \<action>
