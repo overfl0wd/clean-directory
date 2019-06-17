@@ -34,7 +34,7 @@ case "$2" in
 "purge") echo -e "\nm### Starting purge of defined filetypes in" $1 "... \n"
 	for type in ${filetypes[@]}
 	do
-		echo -e "\n### Deleting incompatible" $type "files from" $1 "... \n"
+		echo -e "\n### Deleting" $type "files from" $1 "... \n"
         	find $1 -name *$type -exec rm {} \;
 	done
 	echo -e "\n\e[92m### Done purging! \n" ;;
